@@ -106,8 +106,9 @@
     }
   
     #password-toggle {
-        padding-left: 100px;
-      margin: 10px auto;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 250px;
     }
   
     #signin-button {
@@ -129,9 +130,22 @@
   }
   
   @media (max-width: 375px) {
+
+    #password-toggle {
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 220px;
+    }
     #forgot-pw {
         
      margin-left: 110px;
       text-align: center;
+    }
+  }
+
+  @media (max-width: 320px) {
+    #password-toggle {
+        
+        margin-left: 180px;
     }
   }
