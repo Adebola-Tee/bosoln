@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="signin.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signup-container">
+       <div class="half1-container">
+            <img src="images/Group 21.png" id="ecommerce-logo">
+       </div> 
+       <div class="half2-container">
+            <img src="images/Layer 2.png" id="product-logo">
+            <p id="signin-text">Sign in</p>
+            <form id="sign-in form">
+               <label class="name-label">
+                  <p id="name">Name</p>
+                  <input type="text" class="box-width" id="name-text" placeholder="Placeholder">
+               </label><br>
+               <label class="password-label">
+                  <p id="passwordd">Password</p>
+                  <input type="password" class="box-width" id="signin-password" placeholder="Placeholder">
+                  <img src="images/eye.png" id="password-toggle" onclick="togglePasswordVisibility()">
+               </label><br>
+               <button id="signin-button" class="box-width">Sign in</button>
+               <p id="forgot-pw">Forgot your password?</p>
+            </form>
+       </div>
+    </div>
+</body>
+<script src="signin.js"></script>
+</html>

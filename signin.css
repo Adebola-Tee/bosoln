@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.signup-container{
+    display: flex;
+    width:1440px;
+    height: 1024px;
+}
+.half1-container{
+    background-color:#532BC3;
+    width:720px;
+    height: 1024px;
+   /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+#ecommerce-logo{
+    height: 358px;
+    width: 324.5px;
+    margin:333px 197.5px 333px 198px;
+}
+.half2-container{
+    background-color: black;
+    width:720px;
+    height: 1024px;
+    background-color: white;
+}
+#product-logo{
+    margin-top: 182px;
+    margin-left: 339px;
+}
+#signin-text{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    margin-top: 84px;
+    margin-left: 309px;
+}
+.name-label{
+    position: absolute;
+   display: flex; 
+   flex-direction: column;
+   align-items: flex-start;
+   padding:0px;
+   gap:8px;
+   padding-left: 164px;
+   margin-top:32px;
+}
+#name{
+    width: 40px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686565;
+}
+#name-text{
+    padding:22px 16px;
+    gap:10px;
+    border-radius: 8px;
+    height:60px;
+    background-color:#EFEFEF ;
+    border-color: transparent;
+}
+.password-label{
+    position: absolute;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0px;
+    gap:8px;
+    padding-left: 164px;
+    top: 496px;
+}
+#passwordd{
+    width: 64px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686565;
+}
+#signin-password{
+    padding:18px 16px;
+    gap:10px;
+    border-radius: 8px;
+    height:60px;
+    background-color:#EFEFEF ;
+    border-color: transparent;
+}
+#password-toggle{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:357px;
+}
+.box-width{
+    width:393px;
+}
+#signin-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    position: absolute;
+    height: 52px;
+    margin-left: 164px;
+    top: 634px;
+    background: #4825AA;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: transparent;
+    color: white;
+}
+#forgot-pw{
+    position: absolute;
+    width: 152px;
+    height: 16px;
+    margin-left:284px;
+    top: 708px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686565;
+}
