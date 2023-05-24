@@ -37,6 +37,11 @@
     #password-toggle {
       margin: 10px auto;
     }
+    input::placeholder {
+  color: purple; 
+  border-color: purple;
+  cursor: pointer;
+}
   
     #signin-button {
       margin: 20px auto;
@@ -73,6 +78,11 @@
       margin-left: auto;
       margin-right: auto;
     }
+    input::placeholder {
+  color: purple; 
+  border-color: purple;
+  cursor: pointer;
+}
 
     .name-label, #name{
         
