@@ -67,6 +67,9 @@
     background-color:#EFEFEF ;
     border-color: transparent;
 }
+#name-text:focus{
+    caret-color:#4825AA;
+}
 .password-label{
     position: absolute;
     display: flex; 
@@ -94,6 +97,9 @@
     height:60px;
     background-color:#EFEFEF ;
     border-color: transparent;
+}
+#signin-password{
+    caret-color:#4825AA;
 }
 #password-toggle{
     position: absolute;
